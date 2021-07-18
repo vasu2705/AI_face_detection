@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="blue">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="face recogination" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Face detection</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">VASUDEV KANUNGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+    <h1 class="text-center m-4 text-primary">face-detection Application</h1>
+    <div class="container" align="center">
+        <video id="video" autoplay style="display: none;"></video>
+        <canvas id="canvas" width="400px" height="400"></canvas>
+    </div>
+    <footer class="text-center Footer">
+        <p class="paragraph">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> | developed by VASUDEV KANUNGO
+        </p>
+    </footer>
+
+</body>
+<script def src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script def src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+<script def src="script.js"></script>
+
+</html>

@@ -1,0 +1,20 @@
+h1{
+    text-decoration: underline;
+}
+canvas{
+    border: 3px solid #0d6efd;
+    margin:0 0 1rem 0;
+}
+.Footer {
+    background: #0d6efd;
+    color: #fff;
+    text-align: center;
+    padding: 1em 1em;
+  }
+  
+  .Footer .paragraph {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+  }
+ 
